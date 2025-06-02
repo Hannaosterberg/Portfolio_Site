@@ -1,0 +1,179 @@
+/* :root {
+    --purple: rgb(232, 121, 249);
+    --blue: rgb(96, 165, 250);
+    --green: rgb(94, 234, 212);
+}
+
+body {
+    overflow: hidden;
+    background-color: white; 
+    margin: 0;
+  }
+  
+  .rainbow {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 12px;
+    transform: rotate(10deg);
+    transform-origin: top right;
+    opacity: 0.8;
+    filter: blur(6px);
+    animation: slide 45s linear infinite;
+  }
+  
+  .rainbow:nth-child(1) {
+    left: 0%;
+    background: var(--purple);
+    animation-delay: -1.8s;
+  }
+  .rainbow:nth-child(2) {
+    left: 4%;
+    background: var(--blue);
+    animation-delay: -3.6s;
+  }
+  .rainbow:nth-child(3) {
+    left: 8%;
+    background: var(--green);
+    animation-delay: -5.4s;
+  }
+  .rainbow:nth-child(4) {
+    left: 12%;
+    background: var(--purple);
+    animation-delay: -7.2s;
+  }
+  .rainbow:nth-child(5) {
+    left: 16%;
+    background: var(--blue);
+    animation-delay: -9s;
+  }
+  .rainbow:nth-child(6) {
+    left: 20%;
+    background: var(--green);
+    animation-delay: -10.8s;
+  }
+  .rainbow:nth-child(7) {
+    left: 24%;
+    background: var(--purple);
+    animation-delay: -12.6s;
+  }
+  .rainbow:nth-child(8) {
+    left: 28%;
+    background: var(--blue);
+    animation-delay: -14.4s;
+  }
+  .rainbow:nth-child(9) {
+    left: 32%;
+    background: var(--green);
+    animation-delay: -16.2s;
+  }
+  .rainbow:nth-child(10) {
+    left: 36%;
+    background: var(--purple);
+    animation-delay: -18s;
+  }
+  .rainbow:nth-child(11) {
+    left: 40%;
+    background: var(--blue);
+    animation-delay: -19.8s;
+  }
+  .rainbow:nth-child(12) {
+    left: 44%;
+    background: var(--green);
+    animation-delay: -21.6s;
+  }
+  .rainbow:nth-child(13) {
+    left: 48%;
+    background: var(--purple);
+    animation-delay: -23.4s;
+  }
+  .rainbow:nth-child(14) {
+    left: 52%;
+    background: var(--blue);
+    animation-delay: -25.2s;
+  }
+  .rainbow:nth-child(15) {
+    left: 56%;
+    background: var(--green);
+    animation-delay: -27s;
+  }
+  .rainbow:nth-child(16) {
+    left: 60%;
+    background: var(--purple);
+    animation-delay: -28.8s;
+  }
+  .rainbow:nth-child(17) {
+    left: 64%;
+    background: var(--blue);
+    animation-delay: -30.6s;
+  }
+  .rainbow:nth-child(18) {
+    left: 68%;
+    background: var(--green);
+    animation-delay: -32.4s;
+  }
+  .rainbow:nth-child(19) {
+    left: 72%;
+    background: var(--purple);
+    animation-delay: -34.2s;
+  }
+  .rainbow:nth-child(20) {
+    left: 76%;
+    background: var(--blue);
+    animation-delay: -36s;
+  }
+  .rainbow:nth-child(21) {
+    left: 80%;
+    background: var(--green);
+    animation-delay: -37.8s;
+  }
+  .rainbow:nth-child(22) {
+    left: 84%;
+    background: var(--purple);
+    animation-delay: -39.6s;
+  }
+  .rainbow:nth-child(23) {
+    left: 88%;
+    background: var(--blue);
+    animation-delay: -41.4s;
+  }
+  .rainbow:nth-child(24) {
+    left: 92%;
+    background: var(--green);
+    animation-delay: -43.2s;
+  }
+  .rainbow:nth-child(25) {
+    left: 96%;
+    background: var(--purple);
+    animation-delay: -45s;
+  }
+
+@keyframes slide {
+    from {
+        transform: translateX(-30vw) rotate(10deg);
+    }
+    to {
+        transform: translateX(130vw) rotate(10deg);
+    }
+}
+
+
+h {
+    box-shadow: 0 0 50vh 40vh white;
+    width: 100vw;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.1;
+}
+
+.v {
+    box-shadow: 0 0 35vw 25vw white;
+    width: 0;
+    height: 100vh;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.1;
+} */
