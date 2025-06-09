@@ -42,7 +42,6 @@ export default function Header() {
                     <Link to="/contact" onClick={closeMenu} className={linkStyle("/contact")}>Contact me</Link>
                 </nav>
             )}
-            <Introduktion />
         </header>
     )
 }

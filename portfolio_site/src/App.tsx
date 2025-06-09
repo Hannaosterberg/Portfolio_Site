@@ -10,6 +10,7 @@ function App() {
 
 
   return (
+    <>
     <Router>
       {/* <RainbowBackground /> */}
       <div className="p-4">
@@ -22,6 +23,10 @@ function App() {
       </div>
       <Header />
     </Router>
+    <div className="bg-red-500 text-white p-4">
+      Tailwind fungerar!
+    </div>
+    </>
   )
 }
 
