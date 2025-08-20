@@ -10,7 +10,7 @@ export default function AboutPage() {
 
     return (
         <section className="">
-            <div className="flex flex-col m-20 gap-5">
+            <div className="flex flex-col m-20 gap-5 text-center">
                 <h2 className={`${codystar.className} text-6xl text-white`}>About me</h2>
                 <p className="text-white text-xl">Hi, my name is Hanna and I’m currently studying to become a Fullstack JavaScript Developer at Chas Academy in Stockholm.  
                     <br></br>I started my career in a completely different field, working as a skincare therapist and later as a sales consultant, which gave me valuable experience in communication, teamwork, and customer focus. 

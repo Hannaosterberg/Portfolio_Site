@@ -8,7 +8,7 @@ const codystar = Codystar({
 
 export function Intro() {
     return (
-        <section className="mt-auto flex flex-col gap-10 w-full h-full justify-self-start">
+        <section className="flex flex-col m-10 gap-10 w-full h-full">
         <div className="flex flex-col gap-3 text-center">
         <h1 className={`${codystar.className} text-6xl text-white md:text-7xl lg:text-8xl`} >Hanna Österberg</h1>
         <h2 className="text-3xl text-white">Fullstack Developer</h2>
