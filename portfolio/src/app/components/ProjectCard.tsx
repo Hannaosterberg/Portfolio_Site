@@ -7,25 +7,31 @@ interface RepoProps {
 
 export default function ProjectCard({ repo }: RepoProps ) {
     return (
-        <li className="rounded-2xl border p-4 hover:shadow-md transition flex flex-col gap-2">
+        <div className="rounded-2xl border-white border-2 p-5 hover:shadow-md transition flex flex-col gap-2 w-100 justify-self-center">
             <Image 
                 src={repo.image ?? "/projectImages/default.jpg"}
                 alt={repo.name}
-                width={300}
+                width={400}
                 height={200}
-                className="rounded-md"/>
-            <h3 className="text-xl font-bold">{repo.name}</h3>
-            <p className="">{repo.description}</p>
-            <p className="">{repo.language}</p>
+                className="rounded-md self-center"/>
+            <h3 className="text-xl font-bold text-white">{repo.name}</h3>
+            <p className="text-white">{repo.description}</p>
+            <p className="text-white">{repo.language}</p>
             <div className="flex gap-10">
-            <p className="font-light">{}</p>
+            {/* <p className="font-light text-white">{}</p> */}
+            <div className="flex items-center gap-3">
+            <Image 
+                    src="/GH-icon.svg"
+                    alt="Github icon"
+                    width={30}
+                    height={30}
+                    className="invert" />
             <a href={repo.html_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-lg font-medium underline-offset-4 hover:underline">
+                className="text-md font-medium underline-offset-4 hover:underline hover:text-slate-400 text-white">
                 View on Github
             </a>
             </div>
-        </li>
+            </div>
+        </div>
     )
 }

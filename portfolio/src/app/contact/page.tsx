@@ -8,44 +8,54 @@ const codystar = Codystar({
     display: "swap",
 });
 
-export default function ContactPage() {
+export default function Footer() {
 
     return (
-        <section className="">
-            <div className="flex flex-col m-20 gap-15">
-            <h2 className={`${codystar.className} text-5xl text-white text-center md:text-7xl`}>Contact Information</h2>
-            <div className="flex flex-col gap-3 items-center md:text-2xl">
+        <footer className="w-full bg-black/5 backdrop-blur-md py-8 mt-20 border-t-1 border-gray-900">
+            <div className="flex flex-col items-center gap-4">
+            <h2 className={`${codystar.className} text-2xl text-white`}>Contact Me</h2>
             <div className="flex gap-6">
-            <a href="mailto:hanna.osterberg@chasacademy.se">
+            <a href="mailto:hanna.osterberg@chasacademy.se"
+                className="text-white hover:text-slate-400">
                 <Image 
-                    src="mail-icon.svg"
+                    src="/mail-icon.svg"
                     alt="mail icon"
                     width={30}
                     height={30}
-                    className="invert"
+                    className="invert hover:text-slate-400"
                     />
+                    Mail
             </a>
-            <Link href="https://www.linkedin.com/in/hanna-%C3%B6sterberg-4b963b203/">
+            <a href="https://www.linkedin.com/in/hanna-%C3%B6sterberg-4b963b203/"
+                className="text-white hover:text-slate-400">
                 <Image 
-                    src="linkedin_icon.svg"
+                    src="/linkedin_icon.svg"
                     alt="linkedin icon"
                     width={30}
                     height={30}
-                    className="invert"
+                    className="invert hover:text-slate-400"
                     />
-            </Link>
-            <Link href="https://github.com/Hannaosterberg">
+                Linkedin
+            </a>
+            <div className="">
+            <a href="https://github.com/Hannaosterberg"
+                className="text-white hover:text-slate-300 hover:">
                 <Image 
-                    src="GH-icon.svg"
+                    src="/GH-icon.svg"
                     alt="Github icon"
                     width={30}
                     height={30}
-                    className="invert"
+                    className="invert hover:text-slate-400"
                     />
-            </Link>
+                    Github
+            </a>
             </div>
             </div>
             </div>
-        </section>
+            <div className="flex justify-between m-3">
+            <p className="text-white">© 2025 Hanna Österberg</p>
+            <p className="text-white">Hope you've enjoyed my site!</p>
+            </div>
+        </footer>
     )
 }
