@@ -1,5 +1,3 @@
-import { Repo } from "../types/Repo";
-import ProjectList from "../components/ProjectList";
 import { Codystar } from "next/font/google";
 
 export const revalidate = 3600;

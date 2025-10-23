@@ -2,6 +2,7 @@ import { Intro } from "./components/Intro-H";
 import AboutPage from "./about/page";
 import ProjectList from "./components/ProjectList";
 import ContactPage from "./contact/page";
+import { TechStack } from "./components/TechStack";
 import { Repo } from "./types/Repo";
 import { Codystar } from "next/font/google";
 import { repoImages } from "./components/lib/repoImages";
@@ -50,6 +51,9 @@ export default async function Home() {
         <FadeInWhenVisible>
           <AboutPage />
         </FadeInWhenVisible>
+      </section>
+      <section id="techstack" className="min-h-screen flex items-center justify-center">
+        <TechStack />
       </section>
       <section id="projects" className="min-h-screen flex flex-col items-center justify-center p-10">
         <FadeInWhenVisible>
