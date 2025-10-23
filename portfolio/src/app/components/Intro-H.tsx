@@ -1,4 +1,5 @@
 import { Codystar } from "next/font/google";
+import Image from "next/image";
 
 const codystar = Codystar({
     subsets: ["latin"],
@@ -14,7 +15,8 @@ export function Intro() {
         <h2 className="text-3xl text-white">Fullstack Developer</h2>
         </div>
         <div className="flex justify-center">
-            <img src="/hanna1.jpg" alt="photo of me"
+            <Image src="/hanna1.jpg" alt="photo of me"
+                width={384} height={384}
                 className ="w-80 h-80 rounded-full border-1 opacity-90 lg:w-96 lg:h-96"/>
         </div>
         </section>
